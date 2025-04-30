@@ -18,6 +18,9 @@ let package = Package(
             path: "AGGeometryKit",
             publicHeadersPath: "include",
             cSettings: [
+                .headerSearchPath("Classes"),
+                .headerSearchPath("Categories"),
+                .headerSearchPath("CoreGraphics_Extensions"),
                 .headerSearchPath(".")
             ]
         )

@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "OneGeometryKit",
+    name: "AGGeometryKit",
     platforms: [
         .iOS(.v9),
         .macOS(.v10_10)
     ],
     products: [
         .library(
-            name: "OneGeometryKit",
-            targets: ["OneGeometryKit"]),
+            name: "AGGeometryKit",
+            targets: ["AGGeometryKit"]),
     ],
     targets: [
         .target(
-            name: "OneGeometryKit",
+            name: "AGGeometryKit",
             path: "AGGeometryKit",
             publicHeadersPath: "include",
             cSettings: [

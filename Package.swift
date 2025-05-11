@@ -16,7 +16,7 @@ let package = Package(
         .target(
             name: "AGGeometryKit",
             path: "AGGeometryKit",
-            publicHeadersPath: "include", // Change from "." to "include"
+            publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("Classes"),
                 .headerSearchPath("Categories"),
